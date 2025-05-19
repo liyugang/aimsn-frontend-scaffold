@@ -1,11 +1,11 @@
 {
-  "name": "frontend-scaffold",
-  "version": "1.0.0",
+  "name": "aimsn-frontend-scaffold",
+  "version": "1.0.1",
   "description": "前端项目脚手架，支持Vue3和React，多种UI框架和单元测试",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "frontend-scaffold": "./index.js"
+    "aimsn-frontend-scaffold": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -44,9 +44,9 @@
     "url": "https://github.com/liyugang/aimsn-frontend-scaffold.git"
   },
   "bugs": {
-    "url": "https://github.com/liyugang/frontend-scaffold/issues"
+    "url": "https://github.com/liyugang/aimsn-frontend-scaffold/issues"
   },
-  "homepage": "https://github.com/liyugang/frontend-scaffold#readme",
+  "homepage": "https://github.com/liyugang/aimsn-frontend-scaffold#readme",
   "engines": {
     "node": ">=14.0.0"
   },
