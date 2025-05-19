@@ -1,6 +1,6 @@
 # 前端项目脚手架
 
-一个功能强大的命令行工具，用于快速创建现代化前端项目。支持 React 和 Vue 3，并提供多种 UI 框架和功能选项。
+一个功能丰富的命令行工具，用于快速创建现代化前端项目。支持 React 和 Vue 3，并提供多种 UI 框架和功能选项。
 
 ## 特性
 
@@ -18,9 +18,9 @@
 ## 安装
 
 ```bash
-npm install -g frontend-scaffold
+npm install -g aimsn-frontend-scaffold
 # 或
-yarn global add frontend-scaffold
+yarn global add aimsn-frontend-scaffold
 ```
 
 ## 使用方法
@@ -28,13 +28,13 @@ yarn global add frontend-scaffold
 创建一个新项目：
 
 ```bash
-frontend-scaffold my-app
+aimsn-frontend-scaffold my-app
 ```
 
 或者直接运行，然后按照提示操作：
 
 ```bash
-frontend-scaffold
+aimsn-frontend-scaffold
 ```
 
 ## 可用选项
