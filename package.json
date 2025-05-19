@@ -1,0 +1,57 @@
+{
+  "name": "frontend-scaffold",
+  "version": "1.0.0",
+  "description": "前端项目脚手架，支持Vue3和React，多种UI框架和单元测试",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "frontend-scaffold": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run check",
+    "check": "echo \"Checking package...\" && npm version",
+    "release": "npm publish",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "keywords": [
+    "scaffold",
+    "vue",
+    "react",
+    "element-plus",
+    "ant-design",
+    "chakra-ui",
+    "typescript",
+    "javascript",
+    "frontend"
+  ],
+  "author": "1092509981@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "commander": "^11.1.0",
+    "ejs": "^3.1.9",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liyugang/aimsn-frontend-scaffold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liyugang/frontend-scaffold/issues"
+  },
+  "homepage": "https://github.com/liyugang/frontend-scaffold#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ]
+}

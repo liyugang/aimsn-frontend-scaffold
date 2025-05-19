@@ -1,0 +1,34 @@
+# 开发文件
+.git
+.github
+.gitignore
+.editorconfig
+.eslintrc
+.prettierrc
+.vscode
+.idea
+
+# 测试文件
+test
+tests
+__tests__
+coverage
+
+# 文档和示例
+docs
+examples
+demo
+
+# 其他不需要发布的文件
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+.DS_Store
+Thumbs.db
+
+# 开发环境配置
+.env
+.env.*
+!.env.example 
